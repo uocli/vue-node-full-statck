@@ -1,9 +1,18 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from "vue-router"
 </script>
 
 <template>
-  <h1>Hello, world!</h1>
+  <header>
+    <div class="wrapper">
+      <nav>
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/cart">Cart</RouterLink>
+        <RouterLink to="/products">ProductsÏ</RouterLink>
+      </nav>
+    </div>
+  </header>
+  <router-view></router-view>
 </template>
 
 <style scoped>
