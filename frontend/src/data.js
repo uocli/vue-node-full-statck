@@ -1,11 +1,11 @@
-import basilBottle from "./assets/basil-bottle.webp"
-import lemonBottle from "./assets/lemon-bottle.webp"
-import garlicBottle from "./assets/garlic-bottle.webp"
-import rosemaryBottle from "./assets/rosemary-bottle.webp"
-import chiliBottle from "./assets/chili-bottle.webp"
-import delicateBottle from "./assets/delicate-bottle.webp"
-import mediumBottle from "./assets/medium-bottle.webp"
-import boldBottle from "./assets/bold-bottle.webp"
+import basilBottle from "./assets/basil-bottle.webp";
+import lemonBottle from "./assets/lemon-bottle.webp";
+import garlicBottle from "./assets/garlic-bottle.webp";
+import rosemaryBottle from "./assets/rosemary-bottle.webp";
+import chiliBottle from "./assets/chili-bottle.webp";
+import delicateBottle from "./assets/delicate-bottle.webp";
+import mediumBottle from "./assets/medium-bottle.webp";
+import boldBottle from "./assets/bold-bottle.webp";
 
 export const cartItems = [
   {
@@ -26,7 +26,7 @@ export const cartItems = [
     price: "$26.00",
     imageName: garlicBottle,
   },
-]
+];
 
 export const products = [
   {
@@ -77,4 +77,4 @@ export const products = [
     price: "$24.50",
     imageName: boldBottle,
   },
-]
+];
